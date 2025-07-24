@@ -1,4 +1,4 @@
-const Toolbar = ({ filters, selected, onSelectFilter }) => {
+export const Toolbar = ({ filters, selected, onSelectFilter }) => {
     return (
         <div className="toolbar">
             {filters.map(filter => (
@@ -9,5 +9,3 @@ const Toolbar = ({ filters, selected, onSelectFilter }) => {
         </div>
     );
 };
-
-export default Toolbar;

@@ -1,4 +1,4 @@
-const ProjectList = ({ projects }) => {
+export const ProjectList = ({ projects }) => {
     return (
         <div className="project-list">
             {projects.map((project, index) => (
@@ -9,5 +9,3 @@ const ProjectList = ({ projects }) => {
         </div>
     );
 };
-
-export default ProjectList;

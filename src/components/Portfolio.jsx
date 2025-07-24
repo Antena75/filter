@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import './Portfolio.css';
-import Toolbar from './Toolbar';
-import ProjectList from './ProjectList';
+import { Toolbar } from './Toolbar';
+import { ProjectList } from './ProjectList';
 
 class Portfolio extends Component {
 
